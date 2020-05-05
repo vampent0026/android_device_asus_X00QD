@@ -404,6 +404,11 @@ PRODUCT_PACKAGES += \
     init.qti.dcvs.sh \
     init.qcom.sh
 
+# Remove unwanted packages
+PRODUCT_PACKAGES += \
+    RemovePackages
+
+# Shims
 PRODUCT_PACKAGES += \
     fstab.qcom \
     init.qcom.asus.rc \
