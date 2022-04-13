@@ -14,10 +14,6 @@ PRODUCT_SHIPPING_API_LEVEL := 27
 # Default is nosdcard, S/W button enabled in resource
 PRODUCT_CHARACTERISTICS := nosdcard
 
-# AID/fs configs
-PRODUCT_PACKAGES += \
-    fs_config_files
-
 # Audio
 PRODUCT_PACKAGES += \
     android.hardware.audio@6.0-impl \
