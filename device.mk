@@ -6,6 +6,11 @@
 
 PRODUCT_COMPRESSED_APEX := false
 
+$(call inherit-product, $(SRC_TARGET_DIR)/product/non_ab_device.mk)
+
+# PRODUCT_SHIPPING_API_LEVEL indicates the first api level, device has been commercially launched on.
+PRODUCT_SHIPPING_API_LEVEL := 27
+
 # Default is nosdcard, S/W button enabled in resource
 PRODUCT_CHARACTERISTICS := nosdcard
 
