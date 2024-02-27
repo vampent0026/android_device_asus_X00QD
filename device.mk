@@ -378,6 +378,13 @@ PRODUCT_PACKAGES += \
     android.hardware.secure_element@1.1.vendor \
     android.hardware.secure_element@1.2.vendor
 
+# Protobuf
+PRODUCT_PACKAGES += \
+    libprotobuf-cpp-full-3.9.1-vendorcompat \
+    libprotobuf-cpp-full-vendorcompat \
+    libprotobuf-cpp-lite-vendorcompat \
+    libprotobuf-cpp-lite-3.9.1-vendorcompat
+
 # Ramdisk
 PRODUCT_PACKAGES += \
     init.qcom.post_boot.sh \
