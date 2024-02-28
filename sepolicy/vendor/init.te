@@ -11,3 +11,4 @@ allow init block_device:blk_file write;
 allow init demoapp_file:lnk_file read;
 allow vendor_init proc_dirty:file write;
 allow init proc:file write;
+allow init sysfs_graphics:lnk_file read;
