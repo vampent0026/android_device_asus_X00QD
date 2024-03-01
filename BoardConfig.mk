@@ -183,6 +183,9 @@ VENDOR_SECURITY_PATCH := 2020-05-05
 # Only needed for signing
 BOARD_AVB_ENABLE := false
 
+# Vulkan
+TARGET_USES_VULKAN := false
+
 # WiFi
 BOARD_WLAN_DEVICE := qcwcn
 BOARD_HOSTAPD_DRIVER := NL80211
