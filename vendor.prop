@@ -115,10 +115,6 @@ persist.vendor.camera.HAL3.enabled=1
 persist.vendor.camera.perflock.enable=0
 vendor.camera.aux.packagelist=com.android.camera,com.ngcam.camera,org.lineageos.aperture,org.lineageos.aperture.dev
 
-# Codec2 switch
-debug.stagefright.omx_default_rank.sw-audio=1
-debug.stagefright.omx_default_rank=0
-
 # Dalvik dex2oat
 dalvik.vm.dex2oat64.enabled=true
 
