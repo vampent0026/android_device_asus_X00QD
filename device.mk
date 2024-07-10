@@ -28,6 +28,7 @@ PRODUCT_PACKAGES += \
     audio.usb.default \
     liba2dpoffload \
     libaudio-resampler \
+    libaudioroute.vendor \
     libaudioroute \
     libqcompostprocbundle \
     libqcomvisualizer \
@@ -131,6 +132,9 @@ PRODUCT_PACKAGES += \
 # Fingerprint
 PRODUCT_PACKAGES += \
     android.hardware.biometrics.fingerprint@2.1-service \
+  
+PRODUCT_PACKAGES += \
+    liblzma.vendor
     
 # Firmware
 $(call inherit-product, vendor/asus-firmware/Android.mk)
@@ -146,7 +150,8 @@ PRODUCT_PACKAGES += \
 
 # Gatekeeper
 PRODUCT_PACKAGES += \
-    android.hardware.gatekeeper@1.0.vendor
+    android.hardware.gatekeeper@1.0.vendor \
+    libion.vendor
 
 # GPS
 PRODUCT_PACKAGES += \
@@ -154,6 +159,7 @@ PRODUCT_PACKAGES += \
     android.hardware.gnss@2.1-service-qti \
     android.hardware.gnss@1.1.vendor \
     android.hardware.gnss@2.1.vendor \
+    libhidlmemory.vendor \
     libbatching \
     libgeofencing \
     libgnss \
@@ -377,6 +383,9 @@ PRODUCT_PACKAGES += \
     android.hardware.secure_element@1.1 \
     android.hardware.secure_element@1.2 \
     android.hardware.secure_element@1.1.vendor \
+    libnetutils.vendor \
+    libsqlite.vendor \
+    libsysutils.vendor \
     android.hardware.secure_element@1.2.vendor
 
 # Protobuf
@@ -420,6 +429,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     android.hardware.sensors@1.0-impl \
     android.hardware.sensors@1.0-service \
+    libpower.vendor \
     android.frameworks.sensorservice@1.0 \
     android.frameworks.sensorservice@1.0.vendor
 
