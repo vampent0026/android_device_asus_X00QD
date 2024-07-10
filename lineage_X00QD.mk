@@ -12,7 +12,6 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk
 # Inherit some common Lineage stuff
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 TARGET_NOT_USES_BLUR := true
-TARGET_USES_PICO_GAPPS := true
 TARGET_FACE_UNLOCK_SUPPORTED := true
 
 # Inherit from X00QD device
@@ -28,13 +27,14 @@ PRODUCT_MANUFACTURER := asus
 PRODUCT_MODEL := Zenfone 5
 PRODUCT_NAME := lineage_X00QD
 PRODUCT_GMS_CLIENTID_BASE := android-asus
+TARGET_DISABLE_EPPE := true
 
 TARGET_VENDOR_PRODUCT_NAME := X00QD
 TARGET_VENDOR_DEVICE_NAME := X00QD
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     TARGET_DEVICE=X00QD \
-    PRODUCT_NAME=WW_X00QD \
+    PRODUCT_NAME=WW_Phone \
     PRIVATE_BUILD_DESC="WW_Phone-user 9 PPR1.180610.009 16.0615.2006.131-0 release-keys"
 
 BUILD_FINGERPRINT := asus/WW_Phone/ASUS_X00QD:9/PPR1.180610.009/16.0615.2006.131-0:user/release-keys

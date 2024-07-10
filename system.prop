@@ -3,8 +3,14 @@
 #
 
 # Audio
+qcom.hw.aac.encoder=true
+ro.asus.audio.dualSPK=true
+ro.config.media_vol_steps=25
+ro.config.vc_call_vol_steps=7
+tunnel.audio.encode=true
 audio.sys.noisy.broadcast.delay=600
 audio.sys.offload.pstimeout.secs=3
+persist.audio.fluence.voicecomm=true
 
 # Bluetooth
 bt.max.hfpclient.connections=1
@@ -12,15 +18,11 @@ bluetooth.hci.erroneous_data_reporting.enabled=false
 persist.vendor.bt.a2dp_offload_cap=sbc-aptx-aptxhd-aac
 
 # Camera
-persist.vendor.camera.privapp.list=org.codeaurora.snapcam
-persist.camera.privapp.list=org.codeaurora.snapcam
+persist.vendor.camera.privapp.list=org.codeaurora.snapcam,org.lineageos.aperture
+persist.camera.privapp.list=org.codeaurora.snapcam,org.lineageos.aperture
 
 # CNE
 persist.vendor.cne.feature=1
-
-# Props
-persist.sys.disable_rescue=true
-ro.sys.sdcardfs=0
 
 # Data modules
 persist.data.df.dev_name=rmnet_usb0
@@ -31,9 +33,11 @@ ro.vendor.use_data_netmgrd=true
 arm64.memtag.process.system_server=off
 
 # Display
+debug.sdm.support_writeback=0
 vendor.display.enable_default_color_mode=1
 vendor.gralloc.enable_fb_ubwc=1
 vendor.display.disable_skip_validate=1
+persist.hwc.mdpcomp.enable=true
 
 # Filesystem
 fs_mgr.overlayfs.prefer_cache_backing_storage=true
@@ -50,13 +54,10 @@ ro.com.google.rlz_ap_whitelist=y0,y5,y6,y7,y9
 persist.vendor.overlay.izat.optin=rro
 
 # Graphics
-debug.hwui.skia_atrace_enabled=false
-debug.sf.auto_latch_unsignaled=0
 debug.sf.latch_unsignaled=1
 dev.pm.dyn_samplingrate=1
 persist.demo.hdmirotationlock=false
 sdm.debug.disable_skip_validate=1
-persist.hwc.mdpcomp.enable=true
 
 # Media
 media.settings.xml=/vendor/etc/media_profiles_vendor.xml
