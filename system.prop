@@ -32,18 +32,8 @@ ro.vendor.use_data_netmgrd=true
 # Disable async MTE on system_server
 arm64.memtag.process.system_server=off
 
-# Display
-debug.sdm.support_writeback=0
-vendor.display.enable_default_color_mode=1
-vendor.gralloc.enable_fb_ubwc=1
-vendor.display.disable_skip_validate=1
-persist.hwc.mdpcomp.enable=true
-
 # Filesystem
 fs_mgr.overlayfs.prefer_cache_backing_storage=true
-
-# FM
-vendor.hw.fm.init=0
 
 # GMS
 ro.com.google.clientidbase.ms=android-asus-tpin
@@ -52,12 +42,6 @@ ro.com.google.rlz_ap_whitelist=y0,y5,y6,y7,y9
 
 # GPS
 persist.vendor.overlay.izat.optin=rro
-
-# Graphics
-debug.sf.latch_unsignaled=1
-dev.pm.dyn_samplingrate=1
-persist.demo.hdmirotationlock=false
-sdm.debug.disable_skip_validate=1
 
 # Media
 media.settings.xml=/vendor/etc/media_profiles_vendor.xml
@@ -79,9 +63,6 @@ persist.backup.ntpServer="0.pool.ntp.org"
 # QC framework value-adds
 ro.vendor.qti.va_aosp.support=1
 
-# Radio
-persist.dbg.ims_volte_enable=1
-
 # RIL
 DEVICE_PROVISIONED=1
 persist.radio.VT_CAM_INTERFACE=2
@@ -97,6 +78,3 @@ persist.timed.enable=true
 # WiFi Display
 persist.debug.wfd.enable=1
 persist.sys.wfd.virtual=0
-
-# USB
-ro.usb.firstboot.config=diag,serial_cdev,rmnet,adb

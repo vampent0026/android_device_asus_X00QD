@@ -311,9 +311,9 @@
     <ctl name="RX3 Digital Volume" value="95" />
     <ctl name="RX4 Digital Volume" value="95" />
     <ctl name="RX5 Digital Volume" value="95" />
-    <ctl name="ADC1 Volume" value="6" />
-    <ctl name="ADC2 Volume" value="6" />
-    <ctl name="ADC3 Volume" value="6" />
+    <ctl name="ADC1 Volume" value="12" />
+    <ctl name="ADC2 Volume" value="12" />
+    <ctl name="ADC3 Volume" value="12" />
     <ctl name="DEC1 Volume" value="100" />
     <ctl name="DEC2 Volume" value="84" />
     <ctl name="DEC3 Volume" value="84" />
@@ -2592,7 +2592,7 @@
     </path>
 
     <path name="speaker-stereo-dmic-ef">
-        <path name="speaker-dmic-endfire" />
+        <path name="handset-mic" />
     </path>
 
     <path name="voice-dmic-ef-tmus">
