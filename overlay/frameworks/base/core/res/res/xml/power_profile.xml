@@ -41,8 +41,8 @@
         <value>146</value>
         <value>155</value>
     </array>
-    <item name="screen.on">155</item>
-    <item name="screen.full">365</item>
+    <item name="screen.on.display0">155</item>
+    <item name="screen.full.display0">365</item>
     <item name="camera.flashlight">212</item>
     <item name="camera.avg">620</item>
     <item name="video">61</item>
