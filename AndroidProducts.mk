@@ -5,10 +5,10 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/derp_X00QD.mk
+    $(LOCAL_DIR)/rising_X00QD.mk
 
 COMMON_LUNCH_CHOICES := \
-    derp_X00QD-user \
-    derp_X00QD-userdebug \
-    derp_X00QD-eng
+    rising_X00QD-user \
+    rising_X00QD-userdebug \
+    rising_X00QD-eng
 
