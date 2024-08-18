@@ -8,18 +8,6 @@ PRODUCT_COMPRESSED_APEX := false
 
 $(call inherit-product, $(SRC_TARGET_DIR)/product/non_ab_device.mk)
 
-#Gcam
-PRODUCT_PACKAGES += \
-    prebuiltGCam
-	
-#RetroMusic
-PRODUCT_PACKAGES += \
-    RetroMusic
-
-#LiquidWallpaper
-PRODUCT_PACKAGES += \
-    LiquidWallpaper
-
 # PRODUCT_SHIPPING_API_LEVEL indicates the first api level, device has been commercially launched on.
 PRODUCT_SHIPPING_API_LEVEL := 27
 
