@@ -3,6 +3,7 @@
 #
 # SPDX-License-Identifier: Apache-2.0
 #
+-include vendor/lineage-priv/keys/keys.mk
 
 PRODUCT_COMPRESSED_APEX := false
 
