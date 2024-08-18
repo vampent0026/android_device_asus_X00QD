@@ -25,4 +25,3 @@ clone_or_update_repo "https://github.com/vampent0026/packages_apps_DerpWalls.git
 clone_or_update_repo "https://github.com/vampent0026/packages_apps_LiquidWallpaper.git" "main" "~/android/derp/packages/apps/LiquidWallpaper"
 clone_or_update_repo "https://github.com/vampent0026/packages_apps_RetroMusic.git" "main" "~/android/derp/packages/apps/RetroMusic"
 clone_or_update_repo "https://github.com/vampent0026/packages_apps_prebuiltGCam.git" "main" "~/android/derp/packages/apps/prebuiltGCam"
-clone_or_update_repo "https://github.com/vampent0026/hardware_dolby.git" "x1v_dax14" "~/android/derp/hardware/dolby"
