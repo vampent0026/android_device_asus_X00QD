@@ -19,9 +19,3 @@ clone_or_update_repo() {
 
 # Clone the Asus firmware repository
 clone_or_update_repo "https://gitlab.com/dragonsxbr/vendor_asus-firmware" "twelve-wip" "vendor/asus-firmware"
-
-# Clone additional repositories
-clone_or_update_repo "https://github.com/vampent0026/packages_apps_DerpWalls.git" "14" "~/android/derp/packages/apps/DerpWalls"
-clone_or_update_repo "https://github.com/vampent0026/packages_apps_LiquidWallpaper.git" "main" "~/android/derp/packages/apps/LiquidWallpaper"
-clone_or_update_repo "https://github.com/vampent0026/packages_apps_RetroMusic.git" "main" "~/android/derp/packages/apps/RetroMusic"
-clone_or_update_repo "https://github.com/vampent0026/packages_apps_prebuiltGCam.git" "main" "~/android/derp/packages/apps/prebuiltGCam"
